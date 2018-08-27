@@ -28,7 +28,4 @@ def create_project_hash
   
   projects
 end
-
-  binding.pry
-end
 project.css("ul.project-stats li.first.funded strong").text.gsub("%","").to_i
